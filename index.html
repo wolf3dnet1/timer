@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Timer</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="wrapper" id='wrapper'>
+    <div class="timer-block" id='timer-block'>
+      <div id="numbers">
+        <span id='hours'>00</span>
+        :
+        <span id='min'>00</span>
+        :
+        <span id="sec">00</span>
+      </div>
+      <div class="clock" id='clock'>
+        <div class="line zero">
+          <span>0</span>
+        </div>
+        <div class="line half"></div>
+        <div class="line left"></div>
+        <div class="line right"></div>
+        <div class="circle" id='circle'></div>
+      </div>
+      <div class="buttons-block">
+        <button class="button start" id="button_start">START</button>
+        <button class="button round" id="button_round">ROUND</button>
+      </div>
+      <ul class="round-block"></ul>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
